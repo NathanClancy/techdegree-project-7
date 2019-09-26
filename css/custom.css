@@ -7,6 +7,11 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #2E2F3E;
+}
+
 
 /*CSS Grid*/
 
@@ -48,3 +53,64 @@ header {
   grid-row-start: 2;
   grid-row-end: -1;	
 }
+
+/*Header Styling*/
+
+header{
+	background: #14151F;
+}
+
+
+.appName {
+	color: #FFF;
+	font-size:1.5rem;
+	max-width: 150px;
+	text-align: left;
+	margin: 20px 0 20px 20px;
+	float: left;	
+}
+
+.bellDiv {
+	width: 300px;
+	float: right;
+	color: #FFF;
+	font-size:1.5rem;
+	text-align: right;
+	margin: 20px 0 20px 20px;	
+}
+
+.bell {
+	height: 30px;
+	padding-right: 15px;
+	border-right: solid 2px #FFF;	
+}
+
+.profileImg {
+	border-radius: 50%;
+	padding-left: 15px;
+	height: 35px;
+}
+
+.name {
+	color: #FFF;
+	font-size:.8rem;
+	text-align: right;
+	width: 100px;
+	float: right;
+	margin-top: 13px;
+	font-weight: 600;
+}
+
+
+/*Sidebar Styling*/
+
+.sidebar{
+	background: #14151F;
+}
+
+.sidebarIcons {
+	height: 59px;
+	margin: 0 25px;
+	padding-bottom: 30px;
+}
+
