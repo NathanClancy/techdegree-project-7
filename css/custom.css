@@ -18,7 +18,7 @@ body {
 .parent {
 display: grid;
 grid-template-columns: 75px 1fr 1fr;
-grid-template-rows:  75px 3fr 2fr 1fr 2fr 2fr;
+grid-template-rows:  75px  65px 3fr 2fr 1fr 2fr 2fr;
 grid-template-rows:  75px minmax();	
 grid-column-gap: 0px;
 grid-row-gap: 0px;
@@ -33,8 +33,8 @@ header {
 .dash {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;		
+  grid-row-start: 3;
+  grid-row-end: 4;		
 }
 
 .graph {
@@ -113,4 +113,62 @@ header{
 	margin: 0 25px;
 	padding-bottom: 30px;
 }
+
+/*Dashboard Styling*/
+
+.search p {
+	background: #FFF;
+	height: 4rem;
+	width: 10rem;
+	text-align: center;
+	padding: 22px;
+	font-weight: 500;	
+	float: left;	
+}
+
+.search {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;	
+  background: #DDD;
+  height: 4rem;	
+}
+
+.search input {
+	text-align: center;
+	padding: 22px;
+	font-weight: 500;	
+	float: right;
+	margin-left: auto;
+	margin-right: 20px;	
+	width: 400px;
+	height: 50%;
+	font-size: 1rem;	
+	display: inline-block;	
+	padding: 5px;	
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.alert {
+	background: #03A9F4;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 5px;
+	padding: 10px;
+	height: 40px;	
+}
+
+.close {
+	display: inline;
+	float: right;
+	margin-top: -16px;	
+}
+
+
+
 

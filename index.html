@@ -25,13 +25,13 @@
 	<a href="index.html"><img class="sidebarIcons" src="icons/icon-members.svg"></a>
 	<a href="index.html"><img class="sidebarIcons" src="icons/icon-visits.svg"></a>
 	<a href="index.html"><img class="sidebarIcons" src="icons/icon-settings.svg"></a>	
-	
 </div>
-<div class="dash">
-	<div class="tab"></div>	
-	<div class="search"></div>
-	<div class="alert"></div>
-	<div class="chart"></div>	
+<div class="search"><p>Dashboard</p><input type="text" placeholder="Search"></div>	
+<div class="dash">	
+	<div id="hideMe" class="alert"><p><strong>Alert</strong> &nbsp; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores sit rem voluptatem.</p><p id="x" class="close" onclick="myFunction()">X</p></div>
+	<div class="chart">
+		<canvas id="myChart" width="1600" height="500"></canvas>
+	</div>	
 </div>
 <div class="bargraph">3</div>
 <div class="piegraph">4</div>	
@@ -55,6 +55,7 @@
 	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js" integrity="sha256-qSIshlknROr4J8GMHRlW3fGKrPki733tLq+qeMCR05Q=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js" integrity="sha256-xKeoJ50pzbUGkpQxDYHD7o7hxe0LaOGeguUidbq6vis=" crossorigin="anonymous"></script>	
+ <script src="js/app.js"></script> 	
 </body>
 	
 </html>
