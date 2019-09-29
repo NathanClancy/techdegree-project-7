@@ -59,21 +59,10 @@ const myChart = new Chart(traffic, {
   data: {
     labels: age,
     datasets: [
-      // {data: hourly, borderColor: "#7477bf", lineTension: 0,
-      // backgroundColor: "rgba(77, 76, 114, 0.3)", pointRadius: 5, borderWidth: 2,
-      // pointBorderWidth: 3, pointBackgroundColor: "#fff"},
-      //
-      // {data: daily, borderColor: "#7477bf", lineTension: 0,
-      // backgroundColor: "rgba(77, 76, 114, 0.3)", pointRadius: 5, borderWidth: 2,
-      // pointBorderWidth: 3, pointBackgroundColor: "#fff"},
 
       {data: weekly, borderColor: "#7477bf", lineTension: 0,
       backgroundColor: "rgba(77, 76, 114, 0.3)", pointRadius: 5, borderWidth: 2,
       pointBorderWidth: 3, pointBackgroundColor: "#fff"},
-
-      // {data: monthly, borderColor: "#7477bf", lineTension: 0,
-      // backgroundColor: "rgba(77, 76, 114, 0.3)", pointRadius: 5, borderWidth: 2,
-      // pointBorderWidth: 3, pointBackgroundColor: "#fff"}
     ]
   },
   options: {
